@@ -15,6 +15,7 @@ int main() {
     int firstnum = 0;
     int secondnum = 0;
     
+    printf("Enter two numbers : \n");    
     // Scanning two numbers. 
     scanf("%d %d", &firstnum , &secondnum);
     
