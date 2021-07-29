@@ -13,6 +13,9 @@
 int main()
 {
     int steps = 0;
+
+    printf("Enter number of steps \n");
+
     // scanning the number of steps.
     scanf("%d", &steps);
     
