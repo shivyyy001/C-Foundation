@@ -54,10 +54,11 @@ int main()
     
     // calling the any function .
     int answer = any(s1 , s2);
-    
+       
     // printing the answer , the first location of any character of string s2 in string s1,
     // or -1 if no character is present.
     printf("Present index = %d \n", answer);
     
     return 1;
+
 }
