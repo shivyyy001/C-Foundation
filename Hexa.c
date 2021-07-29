@@ -59,8 +59,11 @@ void htoi(char *s)
     printf("Integer value = %d \n" , answer);
 }
 
+
 int main()
 {
+    printf("Enter your string representing hexadecimal number \n");
+
     // taking input string
     char input[100];
     scanf("%s" , input);
