@@ -53,10 +53,14 @@ int main()
     reverse_array(array , num_of_elements);
     
     // printing the reversed array .
+
+    printf("The reversed array is : \n");
     for(int iterator = 0 ; iterator < num_of_elements ; iterator++)
     {
         printf("%d ", array[iterator]);
     }
     
+    printf("\n");
+
     return 1;
 }
