@@ -35,6 +35,7 @@ void squeeze(char *s1 , char *s2)
         frequency_array[(int)(s2[i])] = 0; 
     }
     
+    printf("After deleting characters in s1 which matches with characters in s2 , s1 is ->\n");
     // printing the left out characters of string s1 which are not present in string s2.
     for(int i = 0 ; i < strlen(s1) ; i++)
     {
@@ -53,7 +54,7 @@ int main()
     char s1[100];
     char s2[100];
     
-    printf("Enter 2 strings\n");    
+    printf("Enter 2 strings each in new line \n");    
     // scanning the 2 strings.
     scanf("%s" ,s1);
     scanf("%s" ,s2);
