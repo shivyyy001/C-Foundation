@@ -15,7 +15,7 @@ int main()
 {
     int sizeofstring = 0;
 
-    printf("First enter size of string and then your string : \n");
+    printf("First enter size of string and then your string in next line : \n");
 
     // scanning the size of string.
     scanf("%d\n", &sizeofstring);
