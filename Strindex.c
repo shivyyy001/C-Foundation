@@ -61,7 +61,7 @@ int main()
     char s[100];
     char t[100];
     
-    printf("Enter two strings\n");
+    printf("Enter two strings in different lines \n");
     // scanning the 2 strings.
     scanf("%s" ,s);
     scanf("%s" ,t);
@@ -70,7 +70,7 @@ int main()
     int answer = strrindex(s , t);
     
     // printing the answer either the rightmost Occurence of t in s or -1 if not present .
-    printf("%d\n", answer);
+    printf("Rightmost Occurence = %d\n", answer);
     
     return 1;
 }
