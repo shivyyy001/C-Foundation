@@ -12,7 +12,7 @@
 
 
 #include<stdio.h>
-#include<string.h> // library to include string functions.
+#include<string.h> // library to include string length function ( strlen() ).
 
 // function to concatinate num number of characters from sourse to destination.
 void __strncat(char *destination , char *source , int num)
@@ -44,6 +44,8 @@ void __strncat(char *destination , char *source , int num)
     printf("%s\n" , answer);
 }
 
+
+
 // function to copy num number of characters from sourse to destination.
 void __strncpy(char *destination , char *source , int num)
 {
@@ -57,6 +59,7 @@ void __strncpy(char *destination , char *source , int num)
     printf("Answer of __strncpy function : \nAfter copying first %d characters from source to destination :\n" , num);
     printf("%s\n" , destination);
 }
+
 
 
 // function to compare num number of characters of string s1 and s2.
@@ -75,6 +78,8 @@ int __strncmp(char *s1 , char *s2 , int num)
     // return 0 if num number of characters of both strings are equal.
     return 0;
 }
+
+
 
 int main()
 {
