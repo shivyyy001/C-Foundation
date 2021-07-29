@@ -61,13 +61,13 @@ int top()
 int main() 
 {
     
-    printf("Enter number of tokens in expression \n");
+    printf("First enter number of tokens in expression : \n");
 
     // Taking the number of tokens from user
     int number_of_tokens;
     scanf("%d" , &number_of_tokens);
     
-    printf("Enter your tokens \n");
+    printf("Enter your expression : \n");
 
     for(int i = 0 ; i < number_of_tokens ; i++)
     {
@@ -146,7 +146,7 @@ int main()
 	}
 	
     // printing the answer which is the only element left in stack.
-    printf("%d \n", top());
+    printf("Answer of the given reverse polish expression = %d \n", top());
     
     return 1;
 
