@@ -73,9 +73,11 @@ int main()
         {
             printf("%d ", newmat[i][j]);
         }
+
         //printing new line after every row.
         printf("\n");
     }
+
     return 1;
 }
 
