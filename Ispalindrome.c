@@ -69,6 +69,7 @@ int main()
     // calling function check_palindrome to return 1 or 0.
     int answer = check_palindrome(str);
 
+    printf("Is given string palindrome ? \n");
     // printing the answer True if string is palindrome else False.
     if(answer == 1)
     {
