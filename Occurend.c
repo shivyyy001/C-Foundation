@@ -45,16 +45,16 @@ int main()
     char t[100];
     
     // scanning the 2 strings.
-    printf("Enter string 1\n");
+    printf("Enter string s\n");
     scanf("%s" ,s);
-    printf("Enter string 2\n");
+    printf("Enter string t\n");
     scanf("%s" ,t);
     
     // calling the strend function .
     int answer = strend(s , t);
     
     // printing the answer either 0 or 1.
-    printf("%d\n", answer);
+    printf("String t occurs at end of string s ? 1 for yes , 0 for no : \n%d\n", answer);
     
     return 1;
 }
