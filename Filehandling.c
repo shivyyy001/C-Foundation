@@ -64,7 +64,11 @@ int main()
 	// if index  > 80 means if length of current line is > 80 then printing. 
 	if(index > 80) 
 	{
-	     printf("%s\n" , arr);
+	    for(int i = 0; i < index; i++)
+	    {
+	        printf("%c", arr[i]);
+ 	    }
+	    printf("\n");
 	}
 		
     }
